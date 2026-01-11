@@ -1,0 +1,106 @@
+* {
+    color: whitesmoke;
+    font-family: nunito;  
+}
+
+body {
+    background-color: rgb(18, 18, 45);
+    margin: 0;
+}
+
+a {
+    font-weight: bold;
+    color: rgb(100, 100, 254);
+    cursor: pointer;
+    text-decoration-line: none;
+}
+
+a:hover, a:visited:hover {
+    color: rgb(124, 124, 255);
+    text-decoration-line: underline;
+}
+
+a:visited {
+    color: rgb(154, 154, 255);
+}
+
+table {
+    margin-top: 30px;
+    border: rgb(128, 128, 128) solid 1px;  
+    background-color: rgb(35, 29, 29);
+}
+
+th {
+    text-align: center;
+    align-items: center;
+    padding: 8px 16px;
+}
+
+td {
+    width: 1%;
+    background-color: rgb(59, 49, 49);
+    padding: 8px;
+}
+
+.linkList {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.linkList p {
+    color: rgb(200, 200, 200);
+    border-bottom: 0.1px solid rgb(69, 69, 69);
+    font-size: large;
+}
+
+.headingText {
+    color: whitesmoke;
+    border-bottom: 0.1px solid rgb(69, 69, 69);
+    width: 100%;
+}
+
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+li {
+    padding: 4px 0px;
+}
+
+.mainContainer {
+    display: flex;
+}
+
+.leftDiv, .rightDiv {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 20%;
+}
+
+.centreDiv {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+    width: 70%;
+}
+
+.flexWrapContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.flexWrapChild {
+    margin: 10px;
+}
+
+img {
+    height: auto; /* Maintain aspect ratio */
+    display: block;
+}
+
+.homeLink {
+    width: 100%;
+    margin-bottom: 40px;
+    margin-top: 20px;
+    font-size: 64px;
+}

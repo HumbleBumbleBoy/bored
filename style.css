@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(18, 18, 45);
+    background-color: rgb(17, 17, 35);
     margin: 0;
 }
 
@@ -103,4 +103,17 @@ img {
     margin-bottom: 40px;
     margin-top: 20px;
     font-size: 64px;
+}
+
+.contentDiv {
+    margin-top: 50px;
+    padding: 16px;
+    border: rgb(128, 128, 128) solid 1px;  
+    background-color: rgb(63, 48, 47);
+}
+
+.imageDiv {
+    padding: 16px;
+    border: rgb(128, 128, 128) solid 1px;  
+    background-color: rgb(75, 65, 65);
 }
